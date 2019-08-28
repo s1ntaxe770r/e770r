@@ -1,0 +1,82 @@
+body{
+	background:#576574;
+}
+.image{
+	margin:0;
+	border-radius:60%;
+	padding:0;
+	width:450px;
+	color:white;
+	font-family:sans-serif;
+}
+
+.pic {
+	border-radius:7%;
+	width: 200px;
+	height: 200px;
+	border:3px solid #01a3a4;
+}
+
+.skills{
+	background:#00d2d3;
+	width:400px;
+	height:130px;
+	transition:transform .2s;
+}
+.skills p{
+	font-family:Courier New;
+	font-size:20px;
+	text-align:center;
+	color:black;
+}
+
+.skills h1{
+	text-align:center;
+	color:white;
+}
+
+.skills p ul{
+	text-align:center;
+}
+
+.skills:hover {
+	transform:scale(1.1);
+}
+
+.exp{
+	background:#10ac84;
+	width:400px;
+	height:130px;
+	transition:transform .2s;
+}
+
+.exp:hover {
+	transform:scale(1.1);
+}
+
+.exp h1{
+	text-align:center;
+	color:white;
+}
+
+.main{
+	background:#1dd1a1;
+	width:400px;
+	height:100px
+	transition:transform .2s;
+
+}
+.main:hover {
+	transform:scale(1.1);
+}
+
+.main p{
+	font-family:Courier New;
+	font-size:20px;
+	text-align:center;
+	color:black;
+}
+.main h1{
+	text-align:center;
+	color:white;
+}
