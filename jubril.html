@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="description" content="basic seo stuff">
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>jubrils page</title>
@@ -41,22 +42,22 @@
 <div class="contact">
 	<h1>contact me</h1>
 	<div class="txtb">
-		<form>
+		<form  action="enter.php" method="post">
 		<label>Full Name :</label>
-		<input type="text" id="name" required autofocus minlength="4" placeholder="Your Name">
+		<input type="text" required autofocus minlength="4" placeholder="Your Name" name="name">
 	</div>
 	<div class="txtb">
 		<label>Email :</label>
-		<input type="email" id="email" required placeholder="Enter Email ">
+		<input type="email" id="email" required placeholder="Enter Email" name="email">
 	</div>
 	<div class="txtb">
 	<fieldset>
 		<label>Message :</label>
-		<textarea minlength="20" required  placeholder="Type your message here..."></textarea>
+		<textarea minlength="20" required  placeholder="Type your message here..." name="comment"></textarea>
 	</fieldset>
 	</div>
 <div>
-	<button class="btn" onclick="resp()">submit</button>
+	<button class="btn">submit</button>
 </div>	
 </div>
 
